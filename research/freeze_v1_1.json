@@ -1,8 +1,8 @@
 {
   "research_id": "newsletter-11-bitcoin-direct-etp-futures",
   "protocol_version": "1.1",
-  "freeze_timestamp_utc": "2026-09-02T10:18:36.000751+00:00",
-  "git_commit": null,
+  "freeze_timestamp_utc": "2026-09-02T10:22:25.489030+00:00",
+  "git_commit": "cdf7f7e7d912869f33fbf06a3b73c3d28a385154",
   "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
   "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
   "files": [

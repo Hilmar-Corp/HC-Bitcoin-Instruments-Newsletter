@@ -1,7 +1,7 @@
 {
   "research_id": "newsletter-11-bitcoin-direct-etp-futures",
   "protocol_version": "1.1",
-  "generated_at_utc": "2026-09-02T10:18:37.639667+00:00",
+  "generated_at_utc": "2026-09-02T10:22:27.844546+00:00",
   "hash_algorithm": "SHA-256",
   "raw_provider_caches_included": false,
   "files": [
@@ -207,11 +207,11 @@
     },
     {
       "path": "research/environment_v1_1.txt",
-      "sha256": "a81df4638d3a45e18c78419172081e212c40f1e84f386f60ce6cc60eaf60173a"
+      "sha256": "066f15293dce12f3b4d396f03eed5217fdaf470564f197ccb882493e89ba472a"
     },
     {
       "path": "research/freeze_v1_1.json",
-      "sha256": "953d128d6bd53c7cd3dac16d9da33a4957298bb76d6d7ad5bce9b320c75f9bac"
+      "sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31"
     },
     {
       "path": "research/raw_freeze_v1_1.json",
