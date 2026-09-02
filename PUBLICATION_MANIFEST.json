@@ -1,7 +1,8 @@
 {
   "research_id": "newsletter-11-bitcoin-direct-etp-futures",
   "protocol_version": "1.1",
-  "generated_at_utc": "2026-09-02T10:24:11.866433+00:00",
+  "manifest_scope": "GIT_TRACKED_PUBLIC_ARTIFACTS",
+  "generated_at_utc": "2026-09-02T10:26:12.277029+00:00",
   "hash_algorithm": "SHA-256",
   "raw_provider_caches_included": false,
   "files": [
@@ -58,80 +59,12 @@
       "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
     },
     {
+      "path": "data/raw/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "final_ibit_nav_decomposition.py",
       "sha256": "cdcb5584dd09c81c086131c69fdcb7a53439661188ee98bf23642756c6269f4e"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/README.md",
-      "sha256": "9eae2942980523b504b2637dafbc55aac457329415d7e64e6e1bc63197e84178"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/data/processed/panel_btc_futures_PROXY_ONLY.csv",
-      "sha256": "a83e99509761d589cbded1cf844eb3409728e4e12daabfba01127b530a3a85d6"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/data/processed/panel_btc_ibit.csv",
-      "sha256": "87d1866763caab0fe56e55bca279fa94814ba849b7768de8d5a8ca9738584167"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/btc_futures_continuous_proxy_daily.csv",
-      "sha256": "9b7ae9796fbef929ea44e964eedfc455b50a626545234d60f28c65a3b37142ad"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/btc_usd_daily.csv",
-      "sha256": "aadd992ff17ffbe9ed7cf83151b242aef7ab47da7360265e730b707462312fc3"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/ibit_daily.csv",
-      "sha256": "b48991d9b9bc194c815e2679a35f2bb387d5fc5dba5c3be2968e6cadf42194ba"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/01_btc_vs_ibit_normalized.png",
-      "sha256": "4ed0da7678b4d979d34d050a344ba301f582b10eb4075008ed9ecc53fcceeb66"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/02_ibit_tracking_difference.png",
-      "sha256": "7094bafbc9d1645739a2b4df00ba38b9a3ec407ded67d05a3456a30438394361"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/03_futures_basis_PROXY_ONLY.png",
-      "sha256": "1b352ee49a71254d1895b0e18b508cad535924f85099027ddb2008119ec7238a"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/04_operational_availability.png",
-      "sha256": "b53f9032b821c28fd19a026c455664db7af2fe8eaa537709078377898a7d3675"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/05_ibit_tracking_distribution.png",
-      "sha256": "ef788b61af3997cbed517275595f57369de1a62ccd758a67bc94a490ccb2a7e7"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/SUMMARY.txt",
-      "sha256": "e0a42b77c2911f440d24bff0d4da961fe7939762952f81de4e2c01af0dc04870"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/data_certification.json",
-      "sha256": "4e5e430fbc285d5982dbe6d7d61cb23f273e485aea040d5821cc995c410163e9"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/results.json",
-      "sha256": "a7e7fbc3d35621729640f3b71d86ba571c1b109f1aed17133e048403f84a8fa5"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/btc_weekend_holiday_gap_proxy.csv",
-      "sha256": "0490b3e56a6c3c89c1d423ac949190c919418954c66fc90c0e9efa4727d0988a"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/headline_metrics.csv",
-      "sha256": "93e368bb95da104f0a93495691cd91d754d0a80a60fb2afc9398ae3e519a6a03"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/product_structure_matrix.csv",
-      "sha256": "3be7e9dc215b6d3611a2f3641807e858fe6a3bbcc201b55ca239e2b7d4d51fbc"
-    },
-    {
-      "path": "newsletter-07-bitcoin-direct-etp-futures/run_experiment.py",
-      "sha256": "9d6bfc5bca8edfbdfe590ef3ac50507f37fdc398cf015c46487589b6ce2b3c83"
     },
     {
       "path": "normalize_blackrock_download.py",
@@ -150,28 +83,8 @@
       "sha256": "1fa7707c0359227ec1c043600801d0af8008160ce7794f7edb3558ab4012e0cc"
     },
     {
-      "path": "outputs/tables/blackrock_excel_audit/Disclaimers_raw.csv",
-      "sha256": "acd93f0758ff950ff107c4335b5b28838bc521dc2fcb9531fd6209a248192db6"
-    },
-    {
-      "path": "outputs/tables/blackrock_excel_audit/Historical_raw.csv",
-      "sha256": "8feb16888342a805d63bd58b90954c1b634afb79eaa5a54d70092d0c159dcf92"
-    },
-    {
-      "path": "outputs/tables/blackrock_excel_audit/Holdings_raw.csv",
-      "sha256": "f34b191ed06c9d1517275801bdc4495b516ae286dc201e9bf842c88ab48a98de"
-    },
-    {
-      "path": "outputs/tables/blackrock_excel_audit/Performance_raw.csv",
-      "sha256": "7bfd79f2ab9fa6dcfd440afa9430b1096f0da4b21b9629e05f493474a2deeb1d"
-    },
-    {
       "path": "outputs/tables/btc_prices_at_xnas_close_audit.csv",
       "sha256": "0b6985d3d021932138ffce3982415e65645edcbcfc1098ef3b73d5a202b06910"
-    },
-    {
-      "path": "outputs/tables/cme_vendor_contract_audit.csv",
-      "sha256": "649700c461cceb85fddef24c0a2c5d927b7f480d7158472b149cfdd69272876e"
     },
     {
       "path": "outputs/tables/ibit_nav_headline_metrics.csv",
@@ -223,7 +136,7 @@
     },
     {
       "path": "scripts/build_publication_manifest.py",
-      "sha256": "a6c416ada7d1aa40cd3ee3e28f27c9f57d510a88c4213e6bc82fbd825a316a8b"
+      "sha256": "8a1481e07e95bc6ed7c5403d5a26ac99cc04a90a1db0443cb2be04cebff0f732"
     },
     {
       "path": "scripts/freeze_raw_inputs.py",
@@ -260,26 +173,6 @@
     {
       "path": "scripts/verify_raw_inputs.py",
       "sha256": "059805bc76d9bbfae992a814dbcca30f6095a7d215c6a6a06a3eeac70688ba40"
-    },
-    {
-      "path": "src/01_download_data.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "src/02_certify_data.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "src/03_build_panel.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "src/04_run_analysis.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "src/05_make_figures.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "tests/test_publication_hardening.py",
