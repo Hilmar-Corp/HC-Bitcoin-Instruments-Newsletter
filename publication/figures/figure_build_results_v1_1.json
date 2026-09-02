@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "observations_prices": 661,
+  "observations_returns": 660,
+  "correlation": 0.9996510861641287,
+  "alpha_daily": -2.67845370148404e-05,
+  "beta": 1.0087441945935218,
+  "r2": 0.9993022940691221,
+  "tracking_error_ann": 0.013704742236865802,
+  "premium_discount_median": 0.0004692104313035,
+  "premium_discount_p05": -0.005166230907343,
+  "premium_discount_p95": 0.0055685877602875,
+  "premium_discount_max_abs": 0.0177308712439709,
+  "identity_max_residual": 3.469446951953614e-18,
+  "cumulative_decomposition_max_residual": 1.205025662587289e-13,
+  "figures": [
+    "publication/figures/01_btc_ibit_indexed.png",
+    "publication/figures/02_ibit_btc_return_regression.png",
+    "publication/figures/03_ibit_tracking_difference.png",
+    "publication/figures/04_ibit_premium_discount.png",
+    "publication/figures/05_ibit_tracking_decomposition.png"
+  ]
+}

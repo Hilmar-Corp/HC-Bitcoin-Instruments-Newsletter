@@ -2,7 +2,7 @@
   "research_id": "newsletter-11-bitcoin-direct-etp-futures",
   "protocol_version": "1.1",
   "manifest_scope": "GIT_TRACKED_PUBLIC_ARTIFACTS",
-  "generated_at_utc": "2026-09-02T10:26:12.277029+00:00",
+  "generated_at_utc": "2026-09-02T11:04:52.269969+00:00",
   "hash_algorithm": "SHA-256",
   "raw_provider_caches_included": false,
   "files": [
@@ -95,6 +95,34 @@
       "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
     },
     {
+      "path": "publication/figures/01_btc_ibit_indexed.png",
+      "sha256": "d06a7406e1579e02f0cb75c727e69c4c2f3ecddfd1a40aca1af37bd67f57f8eb"
+    },
+    {
+      "path": "publication/figures/02_ibit_btc_return_regression.png",
+      "sha256": "f39d11c131ee327e09b07e918439f6b2f2e72a7ee5bdcdf45271cdafb2949af6"
+    },
+    {
+      "path": "publication/figures/03_ibit_tracking_difference.png",
+      "sha256": "df1530b25b3d3bbac497dccd72444dac5cc5a1fb2634cb9adfd553c83cd7143c"
+    },
+    {
+      "path": "publication/figures/04_ibit_premium_discount.png",
+      "sha256": "6844916d41f332e9db680c493acd00af27320b9f3185c0b53d0547ca27853589"
+    },
+    {
+      "path": "publication/figures/05_ibit_tracking_decomposition.png",
+      "sha256": "985d4301bef0a7e0c8c1b74335c8211e255ef62a3d69eaea6a302bcd9811441e"
+    },
+    {
+      "path": "publication/figures/figure_build_results_v1_1.json",
+      "sha256": "fc343549a3c871b714aaeae6650fc36966a729583f8b6e89e6532ea247f4c61b"
+    },
+    {
+      "path": "publication/figures/manifest_v1_1.json",
+      "sha256": "f57267119f8dca71e7bf82cf7df942bd556f90712a2e6073a2110048f4c65b94"
+    },
+    {
       "path": "pyproject.toml",
       "sha256": "8a5089be9f0fe41b38c01e4cf98f72bc090eec34ec7ff7f06606d30b791321a4"
     },
@@ -149,6 +177,10 @@
     {
       "path": "scripts/lint_publication_claims.py",
       "sha256": "ae96e4cf3c3dde2851290094db4f558791a1698b87014592726e7c032f9eb435"
+    },
+    {
+      "path": "scripts/make_publication_figures.py",
+      "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
     },
     {
       "path": "scripts/publication_gate.sh",

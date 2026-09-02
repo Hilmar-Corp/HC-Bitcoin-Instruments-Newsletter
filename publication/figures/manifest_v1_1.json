@@ -1,0 +1,125 @@
+{
+  "version": "1.1",
+  "figures": [
+    {
+      "id": "fig01_btc_ibit_indexed",
+      "registered_at_utc": "2026-09-02T11:04:47.457376+00:00",
+      "figure": {
+        "path": "publication/figures/01_btc_ibit_indexed.png",
+        "sha256": "d06a7406e1579e02f0cb75c727e69c4c2f3ecddfd1a40aca1af37bd67f57f8eb"
+      },
+      "generator": {
+        "path": "scripts/make_publication_figures.py",
+        "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
+      },
+      "inputs": [
+        {
+          "path": "data/processed/panel_ibit_btc_SYNCHRONIZED.csv",
+          "sha256": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0"
+        },
+        {
+          "path": "publication/claims_registry_v1_1.json",
+          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "id": "fig02_ibit_btc_regression",
+      "registered_at_utc": "2026-09-02T11:04:47.505501+00:00",
+      "figure": {
+        "path": "publication/figures/02_ibit_btc_return_regression.png",
+        "sha256": "f39d11c131ee327e09b07e918439f6b2f2e72a7ee5bdcdf45271cdafb2949af6"
+      },
+      "generator": {
+        "path": "scripts/make_publication_figures.py",
+        "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
+      },
+      "inputs": [
+        {
+          "path": "data/processed/panel_ibit_btc_SYNCHRONIZED.csv",
+          "sha256": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0"
+        },
+        {
+          "path": "publication/claims_registry_v1_1.json",
+          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "id": "fig03_tracking_difference",
+      "registered_at_utc": "2026-09-02T11:04:47.567552+00:00",
+      "figure": {
+        "path": "publication/figures/03_ibit_tracking_difference.png",
+        "sha256": "df1530b25b3d3bbac497dccd72444dac5cc5a1fb2634cb9adfd553c83cd7143c"
+      },
+      "generator": {
+        "path": "scripts/make_publication_figures.py",
+        "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
+      },
+      "inputs": [
+        {
+          "path": "data/processed/panel_ibit_btc_SYNCHRONIZED.csv",
+          "sha256": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0"
+        },
+        {
+          "path": "publication/claims_registry_v1_1.json",
+          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "id": "fig04_premium_discount",
+      "registered_at_utc": "2026-09-02T11:04:47.653077+00:00",
+      "figure": {
+        "path": "publication/figures/04_ibit_premium_discount.png",
+        "sha256": "6844916d41f332e9db680c493acd00af27320b9f3185c0b53d0547ca27853589"
+      },
+      "generator": {
+        "path": "scripts/make_publication_figures.py",
+        "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
+      },
+      "inputs": [
+        {
+          "path": "data/processed/panel_ibit_btc_nav_FINAL.csv",
+          "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
+        },
+        {
+          "path": "publication/claims_registry_v1_1.json",
+          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "id": "fig05_tracking_decomposition",
+      "registered_at_utc": "2026-09-02T11:04:47.691886+00:00",
+      "figure": {
+        "path": "publication/figures/05_ibit_tracking_decomposition.png",
+        "sha256": "985d4301bef0a7e0c8c1b74335c8211e255ef62a3d69eaea6a302bcd9811441e"
+      },
+      "generator": {
+        "path": "scripts/make_publication_figures.py",
+        "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
+      },
+      "inputs": [
+        {
+          "path": "data/processed/panel_ibit_btc_nav_FINAL.csv",
+          "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
+        },
+        {
+          "path": "publication/claims_registry_v1_1.json",
+          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    }
+  ]
+}
