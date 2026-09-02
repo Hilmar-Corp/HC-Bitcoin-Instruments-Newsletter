@@ -3,7 +3,7 @@
   "figures": [
     {
       "id": "fig01_btc_ibit_indexed",
-      "registered_at_utc": "2026-09-02T11:04:47.457376+00:00",
+      "registered_at_utc": "2026-09-02T11:31:11.584773+00:00",
       "figure": {
         "path": "publication/figures/01_btc_ibit_indexed.png",
         "sha256": "d06a7406e1579e02f0cb75c727e69c4c2f3ecddfd1a40aca1af37bd67f57f8eb"
@@ -19,7 +19,7 @@
         },
         {
           "path": "publication/claims_registry_v1_1.json",
-          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+          "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
         }
       ],
       "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
@@ -27,7 +27,7 @@
     },
     {
       "id": "fig02_ibit_btc_regression",
-      "registered_at_utc": "2026-09-02T11:04:47.505501+00:00",
+      "registered_at_utc": "2026-09-02T11:31:11.618168+00:00",
       "figure": {
         "path": "publication/figures/02_ibit_btc_return_regression.png",
         "sha256": "f39d11c131ee327e09b07e918439f6b2f2e72a7ee5bdcdf45271cdafb2949af6"
@@ -43,7 +43,7 @@
         },
         {
           "path": "publication/claims_registry_v1_1.json",
-          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+          "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
         }
       ],
       "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
@@ -51,7 +51,7 @@
     },
     {
       "id": "fig03_tracking_difference",
-      "registered_at_utc": "2026-09-02T11:04:47.567552+00:00",
+      "registered_at_utc": "2026-09-02T11:31:11.652131+00:00",
       "figure": {
         "path": "publication/figures/03_ibit_tracking_difference.png",
         "sha256": "df1530b25b3d3bbac497dccd72444dac5cc5a1fb2634cb9adfd553c83cd7143c"
@@ -67,7 +67,7 @@
         },
         {
           "path": "publication/claims_registry_v1_1.json",
-          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+          "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
         }
       ],
       "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
@@ -75,7 +75,7 @@
     },
     {
       "id": "fig04_premium_discount",
-      "registered_at_utc": "2026-09-02T11:04:47.653077+00:00",
+      "registered_at_utc": "2026-09-02T11:31:11.696027+00:00",
       "figure": {
         "path": "publication/figures/04_ibit_premium_discount.png",
         "sha256": "6844916d41f332e9db680c493acd00af27320b9f3185c0b53d0547ca27853589"
@@ -91,7 +91,7 @@
         },
         {
           "path": "publication/claims_registry_v1_1.json",
-          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+          "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
         }
       ],
       "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
@@ -99,7 +99,7 @@
     },
     {
       "id": "fig05_tracking_decomposition",
-      "registered_at_utc": "2026-09-02T11:04:47.691886+00:00",
+      "registered_at_utc": "2026-09-02T11:31:11.748395+00:00",
       "figure": {
         "path": "publication/figures/05_ibit_tracking_decomposition.png",
         "sha256": "985d4301bef0a7e0c8c1b74335c8211e255ef62a3d69eaea6a302bcd9811441e"
@@ -115,7 +115,31 @@
         },
         {
           "path": "publication/claims_registry_v1_1.json",
-          "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+          "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
+        }
+      ],
+      "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",
+      "raw_freeze_sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "id": "fig06_measurement_robustness",
+      "registered_at_utc": "2026-09-02T11:31:11.787872+00:00",
+      "figure": {
+        "path": "publication/figures/06_measurement_robustness.png",
+        "sha256": "3ddd5168a946264b8dcb586b8c8fb06938bbbcbaac9d2ea0677e3669ff3f66b0"
+      },
+      "generator": {
+        "path": "scripts/make_robustness_figure.py",
+        "sha256": "830b56fe576c1305cbbc7c6d36c2e9309c366c99e8dc57608755e4af11ccb40e"
+      },
+      "inputs": [
+        {
+          "path": "outputs/tables/publication_robustness_tracking_v1_1.csv",
+          "sha256": "98abcbc410d499441f59a8aa7b56d89eb346ca49d479b4042246f86fbb892da2"
+        },
+        {
+          "path": "outputs/tables/publication_robustness_premium_discount_v1_1.csv",
+          "sha256": "231ba2a1fd8a4401daafa08c03c22529bf541a936455f29d50e8384fdd4112a7"
         }
       ],
       "research_freeze_sha256": "9a41dbcb859e1267f5d81ca116c8fd33ddb1e444a7574da8cb21cab934300a31",

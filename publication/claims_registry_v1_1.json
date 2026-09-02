@@ -1,6 +1,5 @@
 {
   "version": "1.1",
-
   "metrics": {
     "sample.sessions": {
       "value": 661,
@@ -61,16 +60,102 @@
     "nav.market_vs_nav_drift_ann": {
       "value": -0.001391,
       "format": "percent4"
+    },
+    "robust.log.correlation": {
+      "value": 0.9996457472196536,
+      "format": "decimal6"
+    },
+    "robust.log.beta": {
+      "value": 1.0086423155338666,
+      "format": "decimal6"
+    },
+    "robust.log.r2": {
+      "value": 0.9992916199343386,
+      "format": "decimal6"
+    },
+    "robust.log.tracking_error_ann": {
+      "value": 0.013767490498034319,
+      "format": "percent4"
+    },
+    "robust.log.tracking_difference_ann": {
+      "value": -0.006063588918024276,
+      "format": "percent4"
+    },
+    "robust.utc00.coverage": {
+      "value": 1.0,
+      "format": "percent2"
+    },
+    "robust.utc00.correlation": {
+      "value": 0.1781918683269439,
+      "format": "decimal6"
+    },
+    "robust.utc00.beta": {
+      "value": 0.18310476979257068,
+      "format": "decimal6"
+    },
+    "robust.utc00.r2": {
+      "value": 0.03175234193784693,
+      "format": "decimal6"
+    },
+    "robust.utc00.tracking_error_ann": {
+      "value": 0.6236355586343592,
+      "format": "percent4"
+    },
+    "robust.utc00.tracking_difference_ann": {
+      "value": 0.00301150530744021,
+      "format": "percent4"
+    },
+    "robust.pd.full.mean_abs": {
+      "value": 0.002535272367759029,
+      "format": "percent4"
+    },
+    "robust.pd.trim1.median": {
+      "value": 0.00047518925994455,
+      "format": "percent4"
+    },
+    "robust.pd.trim1.mean_abs": {
+      "value": 0.0024127375525755715,
+      "format": "percent4"
+    },
+    "robust.pd.trim1.p05": {
+      "value": -0.00494765828293225,
+      "format": "percent4"
+    },
+    "robust.pd.trim1.p95": {
+      "value": 0.005371771554841825,
+      "format": "percent4"
+    },
+    "robust.pd.trim1.max_abs": {
+      "value": 0.0115637969143214,
+      "format": "percent4"
+    },
+    "robust.pd.trim5.median": {
+      "value": 0.0004658588041304,
+      "format": "percent4"
+    },
+    "robust.pd.trim5.mean_abs": {
+      "value": 0.0021245846202757883,
+      "format": "percent4"
+    },
+    "robust.pd.trim5.p05": {
+      "value": -0.00438381958408817,
+      "format": "percent4"
+    },
+    "robust.pd.trim5.p95": {
+      "value": 0.004718311111189212,
+      "format": "percent4"
+    },
+    "robust.pd.trim5.max_abs": {
+      "value": 0.0071440948093389,
+      "format": "percent4"
     }
   },
-
   "facts": {
     "cme.contract_size_btc": {
       "value": 5,
       "format": "integer"
     }
   },
-
   "forbidden_patterns": [
     "BTC=F",
     "historical CME J-5",

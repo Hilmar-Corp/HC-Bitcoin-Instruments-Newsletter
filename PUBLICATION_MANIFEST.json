@@ -2,7 +2,7 @@
   "research_id": "newsletter-11-bitcoin-direct-etp-futures",
   "protocol_version": "1.1",
   "manifest_scope": "GIT_TRACKED_PUBLIC_ARTIFACTS",
-  "generated_at_utc": "2026-09-02T11:04:52.269969+00:00",
+  "generated_at_utc": "2026-09-02T11:31:22.454744+00:00",
   "hash_algorithm": "SHA-256",
   "raw_provider_caches_included": false,
   "files": [
@@ -59,6 +59,10 @@
       "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
     },
     {
+      "path": "data/processed/panel_ibit_btc_robustness_v1_1.csv",
+      "sha256": "6198d21a98795c9cd28bca1430f627eda604260903b138e8554426439f08ed08"
+    },
+    {
       "path": "data/raw/.gitkeep",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -83,6 +87,10 @@
       "sha256": "1fa7707c0359227ec1c043600801d0af8008160ce7794f7edb3558ab4012e0cc"
     },
     {
+      "path": "outputs/reports/PUBLICATION_ROBUSTNESS_RESULTS.json",
+      "sha256": "268929889910ec15870a221b24659028683ef5382478355c262ddae14f286b61"
+    },
+    {
       "path": "outputs/tables/btc_prices_at_xnas_close_audit.csv",
       "sha256": "0b6985d3d021932138ffce3982415e65645edcbcfc1098ef3b73d5a202b06910"
     },
@@ -91,8 +99,16 @@
       "sha256": "c87599d74a82f7bc10a12cd4d8dc759e4057d96f95c76425702ed98de746d85c"
     },
     {
+      "path": "outputs/tables/publication_robustness_premium_discount_v1_1.csv",
+      "sha256": "231ba2a1fd8a4401daafa08c03c22529bf541a936455f29d50e8384fdd4112a7"
+    },
+    {
+      "path": "outputs/tables/publication_robustness_tracking_v1_1.csv",
+      "sha256": "98abcbc410d499441f59a8aa7b56d89eb346ca49d479b4042246f86fbb892da2"
+    },
+    {
       "path": "publication/claims_registry_v1_1.json",
-      "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+      "sha256": "5fb6075dea37b6b6cb6daf34d249e27d68fe12771186cc293cdc133eaf4aa77a"
     },
     {
       "path": "publication/figures/01_btc_ibit_indexed.png",
@@ -115,12 +131,20 @@
       "sha256": "985d4301bef0a7e0c8c1b74335c8211e255ef62a3d69eaea6a302bcd9811441e"
     },
     {
+      "path": "publication/figures/06_measurement_robustness.png",
+      "sha256": "3ddd5168a946264b8dcb586b8c8fb06938bbbcbaac9d2ea0677e3669ff3f66b0"
+    },
+    {
       "path": "publication/figures/figure_build_results_v1_1.json",
       "sha256": "fc343549a3c871b714aaeae6650fc36966a729583f8b6e89e6532ea247f4c61b"
     },
     {
       "path": "publication/figures/manifest_v1_1.json",
-      "sha256": "f57267119f8dca71e7bf82cf7df942bd556f90712a2e6073a2110048f4c65b94"
+      "sha256": "3792c9236338977c62e5a552827a2d9f5875f9b6a9d96dadf3fae279c23609e5"
+    },
+    {
+      "path": "publication/figures/robustness_figure_results_v1_1.json",
+      "sha256": "d6a851061966f1e9fd55f854a7a986293319d650026bd9b9d3d554699fe56fd9"
     },
     {
       "path": "pyproject.toml",
@@ -183,6 +207,10 @@
       "sha256": "298e1b12a180c8a59ec1e67326772926dc4c7cc5ad3528ff0e002625e9defa8d"
     },
     {
+      "path": "scripts/make_robustness_figure.py",
+      "sha256": "830b56fe576c1305cbbc7c6d36c2e9309c366c99e8dc57608755e4af11ccb40e"
+    },
+    {
       "path": "scripts/publication_gate.sh",
       "sha256": "f477d1584b9adf3b2833f28b08e5206aa85e9bfc0c5249251f3f29b8cae8b368"
     },
@@ -195,8 +223,16 @@
       "sha256": "160ce96b371f43782fb5c8087adf134197c8bd2c3c3959c470e276f2cee98e90"
     },
     {
+      "path": "scripts/run_publication_robustness.py",
+      "sha256": "05489573f6fa15c280ab7c252737c7a452e7cc329f686677d563e3a90136649f"
+    },
+    {
       "path": "scripts/run_research_assurance.sh",
       "sha256": "f83dc3696c455e266a325837213d1a3efa90b0b84b11ae8ce331a14af28ceef5"
+    },
+    {
+      "path": "scripts/update_robustness_claims.py",
+      "sha256": "7ecaee67cc6cd5561032aa9cdc4d0d7d383fc4b5c23e1ce4d7d404adcb336016"
     },
     {
       "path": "scripts/verify_figure_provenance.py",
@@ -209,6 +245,10 @@
     {
       "path": "tests/test_publication_hardening.py",
       "sha256": "22cc76a34e2ffdbd751ae3ad45b023c26d228c3f4d91ded358d01a42d15443e5"
+    },
+    {
+      "path": "tests/test_publication_robustness.py",
+      "sha256": "3b7e38f9c54e51776ab9c53a9de14299803040cf52a54b0cce7406a90188007d"
     },
     {
       "path": "tests/test_research_v1_1.py",

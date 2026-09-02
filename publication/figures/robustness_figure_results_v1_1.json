@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "figure": "publication/figures/06_measurement_robustness.png",
+  "xnas_simple": {
+    "correlation": 0.9996510861641288,
+    "tracking_error_ann": 0.0137047422368663
+  },
+  "xnas_log": {
+    "correlation": 0.9996457472196536,
+    "tracking_error_ann": 0.0137674904980343
+  },
+  "utc00_simple": {
+    "correlation": 0.1781918683269439,
+    "tracking_error_ann": 0.6236355586343592
+  },
+  "premium_discount": {
+    "full_sample": {
+      "median": 0.0004692104313035,
+      "p05": -0.005166230907343,
+      "p95": 0.0055685877602875,
+      "max_abs": 0.0177308712439709
+    },
+    "remove_top_1pct_abs": {
+      "median": 0.0004751892599445,
+      "p05": -0.0049476582829322,
+      "p95": 0.0053717715548418,
+      "max_abs": 0.0115637969143214
+    },
+    "remove_top_5pct_abs": {
+      "median": 0.0004658588041304,
+      "p05": -0.0043838195840881,
+      "p95": 0.0047183111111892,
+      "max_abs": 0.0071440948093389
+    }
+  }
+}

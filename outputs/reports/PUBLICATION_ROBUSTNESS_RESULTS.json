@@ -1,0 +1,85 @@
+{
+  "protocol": "PUBLICATION_ROBUSTNESS_V1.1",
+  "status": "PASS",
+  "research_scope": "publication_sensitivity_only",
+  "primary_research_freeze_modified": false,
+  "raw_provider_added": false,
+  "source_hashes": {
+    "coinbase_raw_actual": "5ae5f09a838ddda3c2027330b2cd2d5f120d1c5aa61e0cb8d9372338a0377c09",
+    "coinbase_raw_expected": "5ae5f09a838ddda3c2027330b2cd2d5f120d1c5aa61e0cb8d9372338a0377c09",
+    "sync_panel": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0",
+    "nav_panel": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69",
+    "claims_registry": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+  },
+  "temporal_sensitivity": {
+    "alternative_boundary": "00:00 UTC at start of same XNAS session date",
+    "future_information_used": false,
+    "exact_boundary_coverage": 1.0,
+    "purpose": "Descriptive sensitivity to temporal convention; not an alternative publication-grade tracking estimate."
+  },
+  "primary": {
+    "correlation": 0.9996510861641287,
+    "beta": 1.0087441945935218,
+    "r2": 0.9993022940691221,
+    "tracking_error_ann": 0.013704742236866314,
+    "tracking_difference_ann_compounded": -0.006063588918024054
+  },
+  "log_return_sensitivity": {
+    "correlation": 0.9996457472196536,
+    "beta": 1.0086423155338666,
+    "r2": 0.9992916199343386,
+    "tracking_error_ann": 0.013767490498034319,
+    "tracking_difference_ann_compounded": -0.006063588918024276,
+    "simple_log_td_identity_gap": 2.220446049250313e-16
+  },
+  "utc00_boundary_sensitivity": {
+    "correlation": 0.1781918683269439,
+    "beta": 0.18310476979257068,
+    "r2": 0.03175234193784693,
+    "tracking_error_ann": 0.6236355586343592,
+    "tracking_difference_ann_compounded": 0.00301150530744021
+  },
+  "premium_discount_tail_sensitivity": [
+    {
+      "specification": "full_sample",
+      "n": 661,
+      "n_removed": 0,
+      "removed_fraction_target": 0.0,
+      "mean": 0.00034577488900029924,
+      "median": 0.0004692104313035,
+      "mean_abs": 0.002535272367759029,
+      "p05": -0.005166230907343,
+      "p95": 0.0055685877602875,
+      "max_abs": 0.0177308712439709
+    },
+    {
+      "specification": "remove_top_1pct_abs",
+      "n": 654,
+      "n_removed": 7,
+      "removed_fraction_target": 0.01,
+      "mean": 0.0003836705614531537,
+      "median": 0.00047518925994455,
+      "mean_abs": 0.0024127375525755715,
+      "p05": -0.00494765828293225,
+      "p95": 0.005371771554841825,
+      "max_abs": 0.0115637969143214
+    },
+    {
+      "specification": "remove_top_5pct_abs",
+      "n": 627,
+      "n_removed": 34,
+      "removed_fraction_target": 0.05,
+      "mean": 0.0003441798500431269,
+      "median": 0.0004658588041304,
+      "mean_abs": 0.0021245846202757883,
+      "p05": -0.00438381958408817,
+      "p95": 0.004718311111189212,
+      "max_abs": 0.0071440948093389
+    }
+  ],
+  "outputs": [
+    "data/processed/panel_ibit_btc_robustness_v1_1.csv",
+    "outputs/tables/publication_robustness_tracking_v1_1.csv",
+    "outputs/tables/publication_robustness_premium_discount_v1_1.csv"
+  ]
+}
