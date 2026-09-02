@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research package, please cite it as below."
+title: "Bitcoin Instruments: Direct Holding, Listed Product and Futures"
+type: software
+authors:
+  - name: "HilmarCorp Research"
+version: "V1.1"
+date-released: 2026-09-02
+repository-code: "https://github.com/Hilmar-Corp/HC-Bitcoin-Instruments-Newsletter"
+license: Apache-2.0
+abstract: >-
+  Reproducible HilmarCorp research package comparing direct Bitcoin,
+  the listed IBIT vehicle and CME Bitcoin Futures across economic,
+  tracking and operational dimensions.

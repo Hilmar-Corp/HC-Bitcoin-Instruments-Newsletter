@@ -1,0 +1,78 @@
+{
+  "research_id": "newsletter-11-bitcoin-direct-etp-futures",
+  "protocol_version": "1.1",
+  "status": "FROZEN",
+  "publication_status": "QUANT_ASSET_MANAGEMENT_READY",
+
+  "sample": {
+    "start": "2024-01-11",
+    "end": "2026-08-31",
+    "sessions": 661,
+    "returns": 660
+  },
+
+  "spot": {
+    "source": "Coinbase BTC-USD",
+    "role": "economic reference",
+    "temporal_alignment": "exact XNAS close boundary",
+    "interpolation": false,
+    "future_data": false
+  },
+
+  "ibit": {
+    "source": "market close + official BlackRock NAV",
+    "sync_coverage": 1.0,
+
+    "metrics": {
+      "correlation": 0.999651,
+      "beta": 1.008744,
+      "r2": 0.999302,
+      "tracking_error_ann_simple_returns": 0.013705,
+      "tracking_difference_ann": -0.006064
+    }
+  },
+
+  "nav": {
+    "source": "Official BlackRock/iShares fund download",
+    "coverage": 1.0,
+
+    "premium_discount": {
+      "median": 0.000469,
+      "p05": -0.005166,
+      "p95": 0.005569,
+      "max_abs": 0.017731
+    },
+
+    "log_return_decomposition": {
+      "total_market_vs_btc_drift_ann": -0.006064,
+      "nav_vs_btc_drift_ann": -0.004679,
+      "market_vs_nav_drift_ann": -0.001391
+    }
+  },
+
+  "futures": {
+    "instrument": "CME Bitcoin Futures BTC",
+    "empirical_backtest": "EXCLUDED_BY_DESIGN",
+    "publication_scope": "STRUCTURAL_ONLY",
+    "continuous_proxy": "REJECTED",
+    "yahoo_contract_history": "REJECTED",
+    "cme_unauthenticated_settlement_endpoint": "REJECTED"
+  },
+
+  "claim_policy": {
+    "allowed": [
+      "empirical BTC versus IBIT tracking analysis",
+      "official IBIT NAV analysis",
+      "IBIT premium-discount analysis",
+      "structural CME futures mechanics"
+    ],
+
+    "forbidden": [
+      "historical CME J-5 performance claim",
+      "historical CME futures tracking-error claim",
+      "BTC=F used as publication-grade futures history",
+      "Yahoo individual contracts used as publication-grade futures history",
+      "tracking difference described solely as management fees"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "research_id": "newsletter-11-bitcoin-direct-etp-futures",
+  "version": "1.1",
+  "sources": [
+    {
+      "id": "coinbase_btcusd_1h",
+      "path": "data/raw/coinbase_btcusd_1h.csv",
+      "provider": "Coinbase",
+      "role": "BTC spot observations used for exact XNAS-close synchronization",
+      "type": "external_raw"
+    },
+    {
+      "id": "blackrock_ibit_official_download",
+      "path": "data/raw/ibit_blackrock_official_fund_download.xls",
+      "provider": "BlackRock/iShares",
+      "role": "Official IBIT source workbook",
+      "type": "external_raw"
+    },
+    {
+      "id": "blackrock_ibit_normalized",
+      "path": "data/raw/ibit_blackrock_official_fund_download_normalized.xlsx",
+      "provider": "HilmarCorp transformation of official BlackRock/iShares workbook",
+      "role": "Deterministic normalized representation of official IBIT workbook",
+      "type": "derived_raw_representation"
+    }
+  ],
+  "explicitly_excluded": [
+    "CME unauthenticated settlement endpoint results",
+    "Yahoo BTC=F continuous futures",
+    "Yahoo individual expired CME contracts"
+  ]
+}

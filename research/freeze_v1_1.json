@@ -1,0 +1,60 @@
+{
+  "research_id": "newsletter-11-bitcoin-direct-etp-futures",
+  "protocol_version": "1.1",
+  "freeze_timestamp_utc": "2026-09-02T10:18:36.000751+00:00",
+  "git_commit": null,
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+  "files": [
+    {
+      "path": "research/contract_v1_1.json",
+      "bytes": 2015,
+      "sha256": "2a4d7e3175b934ea91244875c838015f67b19c9755c970099b45b64a0f304f45"
+    },
+    {
+      "path": "data/processed/panel_ibit_btc_SYNCHRONIZED.csv",
+      "bytes": 154694,
+      "sha256": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0"
+    },
+    {
+      "path": "data/processed/panel_ibit_btc_nav_FINAL.csv",
+      "bytes": 135153,
+      "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
+    },
+    {
+      "path": "outputs/tables/btc_prices_at_xnas_close_audit.csv",
+      "bytes": 51021,
+      "sha256": "0b6985d3d021932138ffce3982415e65645edcbcfc1098ef3b73d5a202b06910"
+    },
+    {
+      "path": "outputs/reports/ETF_SYNC_RESULTS.json",
+      "bytes": 767,
+      "sha256": "890bb5502bd0652915f2dcfc376b3abbd9f21b10000c47b7f2fef4865df4db06"
+    },
+    {
+      "path": "outputs/reports/IBIT_NAV_FINAL_RESULTS.json",
+      "bytes": 2269,
+      "sha256": "1fa7707c0359227ec1c043600801d0af8008160ce7794f7edb3558ab4012e0cc"
+    },
+    {
+      "path": "rerun_etf_synced.py",
+      "bytes": 9795,
+      "sha256": "4f3b1e23ecce0e0027c1610d8d69292c2325d6be19d0e3d24b31b8c1cd94ecd8"
+    },
+    {
+      "path": "normalize_blackrock_download.py",
+      "bytes": 5753,
+      "sha256": "847818be23cb56d9e2599b7ff97c5f6b8e443c7c98e2e43e6266c99616386b90"
+    },
+    {
+      "path": "final_ibit_nav_decomposition.py",
+      "bytes": 16413,
+      "sha256": "cdcb5584dd09c81c086131c69fdcb7a53439661188ee98bf23642756c6269f4e"
+    },
+    {
+      "path": "tests/test_research_v1_1.py",
+      "bytes": 7020,
+      "sha256": "df72b03f740295a7086de937490f20f1087a30fef58810dcdd2901987b1ffe9d"
+    }
+  ]
+}

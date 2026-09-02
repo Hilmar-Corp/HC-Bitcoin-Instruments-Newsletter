@@ -1,0 +1,84 @@
+{
+  "version": "1.1",
+
+  "metrics": {
+    "sample.sessions": {
+      "value": 661,
+      "format": "integer"
+    },
+    "sample.returns": {
+      "value": 660,
+      "format": "integer"
+    },
+    "ibit.correlation": {
+      "value": 0.999651,
+      "format": "decimal6"
+    },
+    "ibit.beta": {
+      "value": 1.008744,
+      "format": "decimal6"
+    },
+    "ibit.r2": {
+      "value": 0.999302,
+      "format": "decimal6"
+    },
+    "ibit.tracking_error_ann": {
+      "value": 0.013705,
+      "format": "percent4"
+    },
+    "ibit.tracking_difference_ann": {
+      "value": -0.006064,
+      "format": "percent4"
+    },
+    "nav.coverage": {
+      "value": 1.0,
+      "format": "percent2"
+    },
+    "nav.premium_discount_median": {
+      "value": 0.000469,
+      "format": "percent4"
+    },
+    "nav.premium_discount_p05": {
+      "value": -0.005166,
+      "format": "percent4"
+    },
+    "nav.premium_discount_p95": {
+      "value": 0.005569,
+      "format": "percent4"
+    },
+    "nav.premium_discount_max_abs": {
+      "value": 0.017731,
+      "format": "percent4"
+    },
+    "nav.total_drift_ann": {
+      "value": -0.006064,
+      "format": "percent4"
+    },
+    "nav.nav_vs_btc_drift_ann": {
+      "value": -0.004679,
+      "format": "percent4"
+    },
+    "nav.market_vs_nav_drift_ann": {
+      "value": -0.001391,
+      "format": "percent4"
+    }
+  },
+
+  "facts": {
+    "cme.contract_size_btc": {
+      "value": 5,
+      "format": "integer"
+    }
+  },
+
+  "forbidden_patterns": [
+    "BTC=F",
+    "historical CME J-5",
+    "CME J-5 performance",
+    "CME futures tracking error",
+    "CME futures tracking difference",
+    "Yahoo futures history",
+    "tracking difference is the management fee",
+    "tracking difference corresponds to the management fee"
+  ]
+}

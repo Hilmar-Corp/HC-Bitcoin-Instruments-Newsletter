@@ -1,0 +1,44 @@
+
+HILMARCORP — ETF/SPOT SYNCHRONIZED TEST
+---------------------------------------
+
+Sample:
+2024-01-11 -> 2026-08-31
+
+Boundary coverage:
+100.0000%
+
+N returns:
+660
+
+Correlation IBIT / BTC synchronized:
+0.999651
+
+Beta:
+1.008744
+
+R²:
+0.999302
+
+Alpha daily:
+-0.00002678
+
+Tracking error annualized:
+1.3705%
+
+Tracking difference annualized compounded:
+-0.6064%
+
+Daily tracking difference:
+mean   = -0.001559%
+median = -0.000872%
+p05    = -0.142750%
+p95    = 0.132247%
+maxabs = 0.528195%
+
+STATUS:
+PASS
+
+IMPORTANT:
+The previous Yahoo daily BTC comparison is superseded.
+Do not use the previous correlation, beta, R² or tracking error.

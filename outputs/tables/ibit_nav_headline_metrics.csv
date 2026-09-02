@@ -1,0 +1,9 @@
+metric,value
+NAV coverage,1.0
+Premium/discount median,0.0004692104313035461
+Premium/discount p05,-0.005166230907343028
+Premium/discount p95,0.005568587760287569
+Premium/discount max abs,0.01773087124397099
+Total TE market vs BTC,0.013767490498034319
+TE NAV vs BTC,0.07457889280932173
+TE market vs NAV,0.07709069430652755

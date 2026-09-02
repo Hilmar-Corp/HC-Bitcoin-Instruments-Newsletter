@@ -1,0 +1,68 @@
+{
+  "experiment": "IBIT NAV / market / BTC decomposition",
+  "data": {
+    "blackrock_source": "Official iShares IBIT Data Download",
+    "chosen_sheet": "Historical",
+    "nav_rows_detected": 668,
+    "merged_rows": 661,
+    "coverage": 1.0
+  },
+  "premium_discount": {
+    "n": 661,
+    "mean": 0.00034577488900030547,
+    "median": 0.0004692104313035461,
+    "p05": -0.005166230907343028,
+    "p95": 0.005568587760287569,
+    "min": -0.01773087124397099,
+    "max": 0.013108860182730275,
+    "max_abs": 0.01773087124397099,
+    "share_premium": 0.5658093797276853,
+    "share_discount": 0.4341906202723147
+  },
+  "tracking_decomposition": {
+    "TOTAL_market_vs_BTC": {
+      "n": 660,
+      "mean_daily_log_gap": -2.413510764467664e-05,
+      "median_daily_log_gap": -8.726059872774542e-06,
+      "tracking_error_ann": 0.013767490498034319,
+      "annualized_log_drift": -0.006082047126458513,
+      "annualized_compounded_drift": -0.006063588918024276,
+      "p05": -0.0014793556780620348,
+      "p95": 0.001316545886841331,
+      "max_abs": 0.00561728525389283
+    },
+    "NAV_vs_BTC": {
+      "n": 660,
+      "mean_daily_log_gap": -1.8610582817480468e-05,
+      "median_daily_log_gap": -0.00011937040967461426,
+      "tracking_error_ann": 0.07457889280932173,
+      "annualized_log_drift": -0.0046898668700050775,
+      "annualized_compounded_drift": -0.004678886616391598,
+      "p05": -0.007286755760891903,
+      "p95": 0.007848364128846815,
+      "max_abs": 0.02111253366047662
+    },
+    "MARKET_vs_NAV": {
+      "n": 660,
+      "mean_daily_log_gap": -5.524524827196144e-06,
+      "median_daily_log_gap": 6.613714148818138e-05,
+      "tracking_error_ann": 0.07709069430652755,
+      "annualized_log_drift": -0.0013921802564534282,
+      "annualized_compounded_drift": -0.001391211623076427,
+      "p05": -0.007922134687016583,
+      "p95": 0.0072269438324415675,
+      "max_abs": 0.02134144587816658
+    }
+  },
+  "blackrock_premium_discount_crosscheck": null,
+  "identity_max_abs_residual": 3.469446951953614e-18,
+  "checks": {
+    "NAV_coverage_ge_90pct": true,
+    "NAV_positive": true,
+    "market_positive": true,
+    "BTC_positive": true,
+    "log_decomposition_identity": true,
+    "return_observations_ge_500": true
+  },
+  "publication_ready": true
+}

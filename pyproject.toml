@@ -1,0 +1,32 @@
+[project]
+name = "hc-bitcoin-instruments-newsletter"
+version = "1.1.0"
+description = "Reproducible HilmarCorp research on direct Bitcoin, IBIT and CME Bitcoin Futures."
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "-ra",
+    "--strict-config",
+    "--strict-markers",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+extend-exclude = [
+    ".venv",
+    "data/raw",
+    "publication/rendered",
+    "reproduction",
+]
+
+[tool.ruff.lint]
+select = [
+    "E9",
+    "F63",
+    "F7",
+    "F82",
+]

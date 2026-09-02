@@ -1,0 +1,21 @@
+{
+  "protocol": "ETF_SPOT_SYNC_V1.1",
+  "status": "PASS",
+  "sample_start": "2024-01-11",
+  "sample_end": "2026-08-31",
+  "price_observations": 661,
+  "return_observations": 660,
+  "boundary_coverage": 1.0,
+  "correlation": 0.9996510861641289,
+  "beta": 1.008744194593522,
+  "alpha_daily": -2.6784537014842608e-05,
+  "alpha_annual_approx": -0.006749703327740338,
+  "r2": 0.9993022940691221,
+  "tracking_error_annualized": 0.013704742236866376,
+  "tracking_difference_annualized_compounded": -0.006063588918025609,
+  "tracking_diff_mean_daily": -1.5589555249018004e-05,
+  "tracking_diff_median_daily": -8.720057463440511e-06,
+  "tracking_diff_p05": -0.0014274950911161543,
+  "tracking_diff_p95": 0.0013224717800701827,
+  "tracking_diff_max_abs": 0.005281949019802945
+}

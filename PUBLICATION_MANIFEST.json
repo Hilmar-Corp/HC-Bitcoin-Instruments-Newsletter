@@ -1,0 +1,293 @@
+{
+  "research_id": "newsletter-11-bitcoin-direct-etp-futures",
+  "protocol_version": "1.1",
+  "generated_at_utc": "2026-09-02T10:18:37.639667+00:00",
+  "hash_algorithm": "SHA-256",
+  "raw_provider_caches_included": false,
+  "files": [
+    {
+      "path": ".github/workflows/research-ci.yml",
+      "sha256": "11b6ffb02d9b18aed7bab26e930c882f80dbf9fb9db24fe3c487e03da0596505"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "091f14e45c207b10762c6104ddaa2a8e36769d4b37f807e3f04416bb054abda3"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "f2e183fafaa545ba19a90f30adb5b87766d25b29dbfc5b76f11390c414c07f9c"
+    },
+    {
+      "path": "DATA_NOTICE.md",
+      "sha256": "e69654b997c3da757ad1fa0b80bc5a7b305a6992f299fe8e6441b10ba57e3f11"
+    },
+    {
+      "path": "DATA_PROVENANCE.md",
+      "sha256": "4be1810e86b814475f7e2f63bd5f7f9aaea23bcf44fab76d7d563a68d981190e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "cced24c2e53bf4c89ea6d1c12dd69c2e50b15a69b2a954fe6589acb59856bd9c"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "9fc1695244091005371273cf07fedfd72f1c7c434d44c51a6f2e74e672ac1c22"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "9b8e6c83662ac4c3634b717a9d0a4cd62c931d9140001f45b24b340fc3ed32b9"
+    },
+    {
+      "path": "RESEARCH_ASSURANCE.md",
+      "sha256": "a94dafa72b09514b9c21f8996ec4d96b20b97c2ccf0926c2b62f91e175dbc66a"
+    },
+    {
+      "path": "data/processed/panel_ibit_btc_SYNCHRONIZED.csv",
+      "sha256": "db1112094f269ffc019b090ce4e84c80c1eab63dac16c3916bb26d7f9b2d73d0"
+    },
+    {
+      "path": "data/processed/panel_ibit_btc_nav_FINAL.csv",
+      "sha256": "1d5049932173b7bd7cef0eaffba99c0028da8e946581b0428f4ac45945ee0f69"
+    },
+    {
+      "path": "final_ibit_nav_decomposition.py",
+      "sha256": "cdcb5584dd09c81c086131c69fdcb7a53439661188ee98bf23642756c6269f4e"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/README.md",
+      "sha256": "9eae2942980523b504b2637dafbc55aac457329415d7e64e6e1bc63197e84178"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/data/processed/panel_btc_futures_PROXY_ONLY.csv",
+      "sha256": "a83e99509761d589cbded1cf844eb3409728e4e12daabfba01127b530a3a85d6"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/data/processed/panel_btc_ibit.csv",
+      "sha256": "87d1866763caab0fe56e55bca279fa94814ba849b7768de8d5a8ca9738584167"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/btc_futures_continuous_proxy_daily.csv",
+      "sha256": "9b7ae9796fbef929ea44e964eedfc455b50a626545234d60f28c65a3b37142ad"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/btc_usd_daily.csv",
+      "sha256": "aadd992ff17ffbe9ed7cf83151b242aef7ab47da7360265e730b707462312fc3"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/data/raw/ibit_daily.csv",
+      "sha256": "b48991d9b9bc194c815e2679a35f2bb387d5fc5dba5c3be2968e6cadf42194ba"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/01_btc_vs_ibit_normalized.png",
+      "sha256": "4ed0da7678b4d979d34d050a344ba301f582b10eb4075008ed9ecc53fcceeb66"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/02_ibit_tracking_difference.png",
+      "sha256": "7094bafbc9d1645739a2b4df00ba38b9a3ec407ded67d05a3456a30438394361"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/03_futures_basis_PROXY_ONLY.png",
+      "sha256": "1b352ee49a71254d1895b0e18b508cad535924f85099027ddb2008119ec7238a"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/04_operational_availability.png",
+      "sha256": "b53f9032b821c28fd19a026c455664db7af2fe8eaa537709078377898a7d3675"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/figures/05_ibit_tracking_distribution.png",
+      "sha256": "ef788b61af3997cbed517275595f57369de1a62ccd758a67bc94a490ccb2a7e7"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/SUMMARY.txt",
+      "sha256": "e0a42b77c2911f440d24bff0d4da961fe7939762952f81de4e2c01af0dc04870"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/data_certification.json",
+      "sha256": "4e5e430fbc285d5982dbe6d7d61cb23f273e485aea040d5821cc995c410163e9"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/reports/results.json",
+      "sha256": "a7e7fbc3d35621729640f3b71d86ba571c1b109f1aed17133e048403f84a8fa5"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/btc_weekend_holiday_gap_proxy.csv",
+      "sha256": "0490b3e56a6c3c89c1d423ac949190c919418954c66fc90c0e9efa4727d0988a"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/headline_metrics.csv",
+      "sha256": "93e368bb95da104f0a93495691cd91d754d0a80a60fb2afc9398ae3e519a6a03"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/outputs/tables/product_structure_matrix.csv",
+      "sha256": "3be7e9dc215b6d3611a2f3641807e858fe6a3bbcc201b55ca239e2b7d4d51fbc"
+    },
+    {
+      "path": "newsletter-07-bitcoin-direct-etp-futures/run_experiment.py",
+      "sha256": "9d6bfc5bca8edfbdfe590ef3ac50507f37fdc398cf015c46487589b6ce2b3c83"
+    },
+    {
+      "path": "normalize_blackrock_download.py",
+      "sha256": "847818be23cb56d9e2599b7ff97c5f6b8e443c7c98e2e43e6266c99616386b90"
+    },
+    {
+      "path": "outputs/reports/ETF_SYNC_RESULTS.json",
+      "sha256": "890bb5502bd0652915f2dcfc376b3abbd9f21b10000c47b7f2fef4865df4db06"
+    },
+    {
+      "path": "outputs/reports/ETF_SYNC_SUMMARY.txt",
+      "sha256": "5b556e096a7c8c7145b6e39a32b8fa13584de665ed1bc8825b345c6a66307afd"
+    },
+    {
+      "path": "outputs/reports/IBIT_NAV_FINAL_RESULTS.json",
+      "sha256": "1fa7707c0359227ec1c043600801d0af8008160ce7794f7edb3558ab4012e0cc"
+    },
+    {
+      "path": "outputs/tables/blackrock_excel_audit/Disclaimers_raw.csv",
+      "sha256": "acd93f0758ff950ff107c4335b5b28838bc521dc2fcb9531fd6209a248192db6"
+    },
+    {
+      "path": "outputs/tables/blackrock_excel_audit/Historical_raw.csv",
+      "sha256": "8feb16888342a805d63bd58b90954c1b634afb79eaa5a54d70092d0c159dcf92"
+    },
+    {
+      "path": "outputs/tables/blackrock_excel_audit/Holdings_raw.csv",
+      "sha256": "f34b191ed06c9d1517275801bdc4495b516ae286dc201e9bf842c88ab48a98de"
+    },
+    {
+      "path": "outputs/tables/blackrock_excel_audit/Performance_raw.csv",
+      "sha256": "7bfd79f2ab9fa6dcfd440afa9430b1096f0da4b21b9629e05f493474a2deeb1d"
+    },
+    {
+      "path": "outputs/tables/btc_prices_at_xnas_close_audit.csv",
+      "sha256": "0b6985d3d021932138ffce3982415e65645edcbcfc1098ef3b73d5a202b06910"
+    },
+    {
+      "path": "outputs/tables/cme_vendor_contract_audit.csv",
+      "sha256": "649700c461cceb85fddef24c0a2c5d927b7f480d7158472b149cfdd69272876e"
+    },
+    {
+      "path": "outputs/tables/ibit_nav_headline_metrics.csv",
+      "sha256": "c87599d74a82f7bc10a12cd4d8dc759e4057d96f95c76425702ed98de746d85c"
+    },
+    {
+      "path": "publication/claims_registry_v1_1.json",
+      "sha256": "094ea6eaa309851703a1a8673a19ab24be6946baa706a23c16aca23c640d5f4a"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "8a5089be9f0fe41b38c01e4cf98f72bc090eec34ec7ff7f06606d30b791321a4"
+    },
+    {
+      "path": "pytest.ini",
+      "sha256": "3c5ca66065e1839c770031e52b008a404c82fc60aad4ea2514db62ddeba39899"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "1640d4a9bcac26a8e2c1cb4d5c064954e233bbae7bc40318d36e1481273a2b77"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rerun_etf_synced.py",
+      "sha256": "4f3b1e23ecce0e0027c1610d8d69292c2325d6be19d0e3d24b31b8c1cd94ecd8"
+    },
+    {
+      "path": "research/contract_v1_1.json",
+      "sha256": "2a4d7e3175b934ea91244875c838015f67b19c9755c970099b45b64a0f304f45"
+    },
+    {
+      "path": "research/environment_v1_1.txt",
+      "sha256": "a81df4638d3a45e18c78419172081e212c40f1e84f386f60ce6cc60eaf60173a"
+    },
+    {
+      "path": "research/freeze_v1_1.json",
+      "sha256": "953d128d6bd53c7cd3dac16d9da33a4957298bb76d6d7ad5bce9b320c75f9bac"
+    },
+    {
+      "path": "research/raw_freeze_v1_1.json",
+      "sha256": "423e144803550cb994f727a1d09290b4578458f9fae0db954ab350dbdd074cc2"
+    },
+    {
+      "path": "research/raw_sources_v1_1.json",
+      "sha256": "778457e66cc9509fc7b39ce3e24498deaf7f4b6f2e2ceb02cf160a98995ad302"
+    },
+    {
+      "path": "scripts/build_publication_manifest.py",
+      "sha256": "a6c416ada7d1aa40cd3ee3e28f27c9f57d510a88c4213e6bc82fbd825a316a8b"
+    },
+    {
+      "path": "scripts/freeze_raw_inputs.py",
+      "sha256": "2aadee8623b0b8e3585cf33263a286ac3e7e29fa8adab9b9dddfa99cfb4c17db"
+    },
+    {
+      "path": "scripts/freeze_research.py",
+      "sha256": "5a1d6beaf061a501bb84ce1f95814529e80a34e2d328b5c12bf893e16c69e24b"
+    },
+    {
+      "path": "scripts/lint_publication_claims.py",
+      "sha256": "ae96e4cf3c3dde2851290094db4f558791a1698b87014592726e7c032f9eb435"
+    },
+    {
+      "path": "scripts/publication_gate.sh",
+      "sha256": "f477d1584b9adf3b2833f28b08e5206aa85e9bfc0c5249251f3f29b8cae8b368"
+    },
+    {
+      "path": "scripts/register_figure.py",
+      "sha256": "8a38194b0545b47c7dbec0aa5a10820a05d416ed7d1292ba1de9979ae35acdae"
+    },
+    {
+      "path": "scripts/render_publication.py",
+      "sha256": "160ce96b371f43782fb5c8087adf134197c8bd2c3c3959c470e276f2cee98e90"
+    },
+    {
+      "path": "scripts/run_research_assurance.sh",
+      "sha256": "f83dc3696c455e266a325837213d1a3efa90b0b84b11ae8ce331a14af28ceef5"
+    },
+    {
+      "path": "scripts/verify_figure_provenance.py",
+      "sha256": "2e3b0f29ca258cd6eef587074b1f567c7d305be6c75bb3147a4697cd87b44c53"
+    },
+    {
+      "path": "scripts/verify_raw_inputs.py",
+      "sha256": "059805bc76d9bbfae992a814dbcca30f6095a7d215c6a6a06a3eeac70688ba40"
+    },
+    {
+      "path": "src/01_download_data.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/02_certify_data.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/03_build_panel.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/04_run_analysis.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/05_make_figures.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_publication_hardening.py",
+      "sha256": "22cc76a34e2ffdbd751ae3ad45b023c26d228c3f4d91ded358d01a42d15443e5"
+    },
+    {
+      "path": "tests/test_research_v1_1.py",
+      "sha256": "df72b03f740295a7086de937490f20f1087a30fef58810dcdd2901987b1ffe9d"
+    }
+  ]
+}

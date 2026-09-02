@@ -1,0 +1,35 @@
+{
+  "research_id": "newsletter-11-bitcoin-direct-etp-futures",
+  "version": "1.1",
+  "freeze_timestamp_utc": "2026-09-02T10:18:35.909731+00:00",
+  "registry_sha256": "778457e66cc9509fc7b39ce3e24498deaf7f4b6f2e2ceb02cf160a98995ad302",
+  "sources": [
+    {
+      "id": "coinbase_btcusd_1h",
+      "path": "data/raw/coinbase_btcusd_1h.csv",
+      "provider": "Coinbase",
+      "role": "BTC spot observations used for exact XNAS-close synchronization",
+      "type": "external_raw",
+      "bytes": 1741327,
+      "sha256": "5ae5f09a838ddda3c2027330b2cd2d5f120d1c5aa61e0cb8d9372338a0377c09"
+    },
+    {
+      "id": "blackrock_ibit_official_download",
+      "path": "data/raw/ibit_blackrock_official_fund_download.xls",
+      "provider": "BlackRock/iShares",
+      "role": "Official IBIT source workbook",
+      "type": "external_raw",
+      "bytes": 257457,
+      "sha256": "a42bb6329a2fd0c7768d0bebc57f3791411371d1406c5665b542d68bf0f0f436"
+    },
+    {
+      "id": "blackrock_ibit_normalized",
+      "path": "data/raw/ibit_blackrock_official_fund_download_normalized.xlsx",
+      "provider": "HilmarCorp transformation of official BlackRock/iShares workbook",
+      "role": "Deterministic normalized representation of official IBIT workbook",
+      "type": "derived_raw_representation",
+      "bytes": 28512,
+      "sha256": "e9fb4b37927f52c0477982f7f12e5f0586e96855d86500739cfd9f6aa656bd31"
+    }
+  ]
+}
